@@ -1,5 +1,5 @@
 {
-  "name": "tiny-patchwork",
+  "name": "matchbox",
   "type": "module",
   "private": true,
   "devDependencies": {
