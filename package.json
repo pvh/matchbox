@@ -3,10 +3,10 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@automerge/automerge-repo-keyhive": "catalog:",
+    "@automerge/automerge-repo-keyhive": "0.2.0-alpha.1d",
     "@eslint/js": "^9.37.0",
-    "@inkandswitch/patchwork-bootloader": "workspace:^",
-    "@keyhive/keyhive": "catalog:",
+    "@inkandswitch/patchwork-bootloader": "0.0.6",
+    "@keyhive/keyhive": "0.0.0-alpha.56",
     "@tailwindcss/vite": "^4.1.14",
     "daisyui": "^5.1.29",
     "eslint": "^9.34.0",
@@ -24,16 +24,16 @@
     "sync": "vite build && pushwork sync"
   },
   "dependencies": {
-    "@automerge/automerge": "catalog:",
-    "@automerge/automerge-repo": "catalog:",
-    "@automerge/automerge-subduction": "catalog:",
-    "@automerge/vanillajs": "catalog:",
+    "@automerge/automerge": "3.2.6",
+    "@automerge/automerge-repo": "2.6.0-subduction.15",
+    "@automerge/automerge-subduction": "0.8.1",
+    "@automerge/vanillajs": "2.6.0-subduction.15",
     "@codemirror/language": "^6.11.3",
     "@codemirror/state": "^6.5.2",
     "@codemirror/view": "^6.38.6",
-    "@inkandswitch/patchwork-elements": "workspace:^",
-    "@inkandswitch/patchwork-filesystem": "workspace:^",
-    "@inkandswitch/patchwork-plugins": "workspace:^",
+    "@inkandswitch/patchwork-elements": "*",
+    "@inkandswitch/patchwork-filesystem": "*",
+    "@inkandswitch/patchwork-plugins": "^0.0.7",
     "solid-js": "^1.9.9",
     "tailwindcss": "^4.1.14"
   }
