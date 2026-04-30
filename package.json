@@ -5,7 +5,7 @@
   "devDependencies": {
     "@automerge/automerge-repo-keyhive": "0.2.0-alpha.1d",
     "@eslint/js": "^9.37.0",
-    "@inkandswitch/patchwork-bootloader": "0.0.6",
+    "@inkandswitch/patchwork-bootloader": "0.0.8",
     "@keyhive/keyhive": "0.0.0-alpha.56",
     "@tailwindcss/vite": "^4.1.14",
     "daisyui": "^5.1.29",
